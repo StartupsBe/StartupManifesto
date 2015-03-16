@@ -1,0 +1,114 @@
+/* ===========================
+   Modules / Sug
+   =========================== */
+
+.sug-cnt {
+    background: @gray-light;
+    color: white;
+    margin-right: .5em;
+    width: 100%;
+    vertical-align: -1px;
+    text-align: center;
+    font-size: 5.5em;
+    line-height: 1.1;
+    font-weight: bold;
+
+    @media (max-width: @screen-xs-max) {
+      background: white;
+      color: @brand-info;
+      font-size: 3em;
+      padding: 0;
+      text-align: left;
+    }
+  }
+
+
+  .sug-anchor {
+    display: block;
+    clear: both;
+    margin-bottom: 2em;
+    //border-top: 16px solid @gray-light;
+    @media (max-width: @screen-xs-max) {
+      margin-bottom: .5em;
+    }
+  }
+  @media (max-width: @screen-xs-max) {
+    .sug-cnt-holder a {
+      display: none !important;
+    }
+  }
+
+  .sug-list {
+
+  }
+
+  .sug {
+    min-height: 100vh;
+    margin-bottom: 8em;
+
+    li {
+      margin-bottom: .5em;
+      margin-left: 1.2em;
+
+      .btn {
+        border-radius: 50%;
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        line-height: 1;
+        padding: 0;
+        text-align: center;
+        i {
+          font-size: .5em;
+          vertical-align: .45em;
+          color: @gray;
+        }
+      }
+    }
+
+    li:before {    
+      font-family: 'icomoon';
+      content: '\e600';
+      margin:0 10px 0 -30px;
+      color: @brand-info;
+      font-size: .75em;
+    }
+
+    .btn-label {
+      background: @brand-primary;
+      margin-left: .25em;
+      position: static;
+      padding: .25em .5em;
+      text-align: center;
+    }
+
+    .btn-labeled {
+      font-size: 1em;
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      background: transparent;
+      text-align: right;
+      float: right;
+      font-weight: bold;
+      border: 1px solid white;
+      border-right: none;
+      border-top: none;
+      line-height: 1.5;
+      &:hover {
+        color: @gray-dark;
+        .btn-label {
+          color: white;
+          background: darken(@brand-primary, 10%);
+        }
+      }
+      &:active {
+        border: 1px solid @gray-light;
+        border-top: none;
+        border-right: none;
+        background: @gray-light;
+        color: white;
+      }
+    }
+  }
