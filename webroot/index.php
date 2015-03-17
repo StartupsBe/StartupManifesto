@@ -358,15 +358,15 @@
               <h3>In this Manifesto, we encourage Belgians to:</h3>
               <ul class="list-unstyled">
                 <li>
-                  <h4>BE Proud!</h4>
+                  <strong>BE Proud!</strong>
                   <p>Recognize the impact and potential of our work; reflect on the courage and new knowledge (failures included) instead of being silent or modest.</p>
                 </li>
                 <li>
-                  <h4>Testify!</h4>
+                  <strong>Testify!</strong>
                   <p> Share stories. Step up. Take the stage and publicize your achievements (as well as the hardships and lessons learned)</p>
                 </li>
                 <li>
-                  <h4>Share!</h4>
+                  <strong>Share!</strong>
                   <p>Journalists–highlight startups in features and in-depth interviews. Entrepreneurs–mentor aspiring new students or startups. Friends, families and community members–ask us how we can help each other.</p>
                 </li>
               </ul>
@@ -477,7 +477,7 @@
          <p><small class="date">Feb 20</small><a href="https://medium.com/@xdamman/10-000-startups-100-000-jobs-fa749671e145">10,000 startups. 100,000 jobs. #BeStartupManifesto</a></p>      
       </div>
       <div class="col-md-3 text-center">
-        <a href="https://docs.google.com/document/d/1MTpclbFY-YtXBx2TUkppDG7BsPP0Pj0NYay-G2_UnWE/pub" class="btn btn-lg btn-default">F A Q</a>  
+        <a href="https://docs.google.com/document/d/1MTpclbFY-YtXBx2TUkppDG7BsPP0Pj0NYay-G2_UnWE/pub" class="btn btn-lg btn-default btn-faq">F A Q</a>  
       </div>
     </div>
     
@@ -492,16 +492,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-offset-1 col-md-10">
+        <div class="text-center">
+          <p>Follow the manifesto</p>
 
-        <div class="row">
-          <div class="col-sm-4 text-right">
-            <a href="https://twitter.com/manifestobe"><i class="icon-twitter"></i></a>  
-          </div>
-          <div class="col-sm-8">
-            <a href="https://twitter.com/manifestobe" class="btn btn-info btn-lg">
-            Follow the manifesto
-            </a>
-          </div>
+          <a href="https://twitter.com/manifestobe"><i class="icon-twitter"></i></a>  
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.facebook.com/startupmanifesto"><i class="icon-facebook"></i></a>  
         </div>
         <hr>
 
@@ -640,6 +636,14 @@
     </div>
   </div>
 </div>
+
+<hr>
+
+<div class="text-center">
+  <p>Spread the word.<br>Repurpose the Startup Manifesto logo to show your support.</p>
+  <a href="https://t.co/sNSA4IjXZD" class="btn btn-info btn-lg">Download logo</a>
+</div>
+
 </div>
 
 
