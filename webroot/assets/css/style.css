@@ -3068,6 +3068,10 @@ ul {
   font-size: 3em;
   display: inline-block;
 }
+.founders .icon-facebook {
+  font-size: 2.5em;
+  vertical-align: 5px;
+}
 .founders h4 {
   font-weight: bold;
   font-size: .8em;
