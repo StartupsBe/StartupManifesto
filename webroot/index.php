@@ -708,8 +708,9 @@ $langs = array('en', 'fr');
 
 
 <footer>
-  <p>Social media by <a href="http://www.twitter.com/stefanifrim">Stefan Ifrim</a> from Belgian startup <a href="http://www.frimgle.com/">Frimgle</a></p>
-  <p>Website built by <a href="http://www.twitter.com/fritsbits">Frederik Vincx</a> from Belgian startup <a href="http://www.prezly.com">Prezly</a></p>
+  <p>Social media by <a href="http://www.twitter.com/stefanifrim">Stefan Ifrim</a> from <a href="http://www.frimgle.com/">Frimgle</a></p>
+  <p>Website built by <a href="http://www.twitter.com/fritsbits">Frederik Vincx</a> from <a href="http://www.prezly.com">Prezly</a></p>
+  <p>Hosting by <a href="http://www.level27.be">Level27</a></p>
 </footer>
 
 <div class="footer-affix">
