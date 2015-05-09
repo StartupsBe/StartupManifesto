@@ -3087,6 +3087,10 @@ ul {
     min-height: 100vh;
     margin-bottom: 0 !important;
   }
+  .cta-sign small {
+    display: block;
+    clear: both;
+  }
 }
 .signitnow {
   margin-bottom: 2em;
@@ -3180,6 +3184,10 @@ ul {
   -moz-transition: 0.3s ease-in-out font-size;
   -ms-transition: 0.3s ease-in-out font-size;
   -o-transition: 0.3s ease-in-out font-size;
+}
+.cta-sign small {
+  font-weight: 300;
+  font-size: .5em;
 }
 .cta-sign .icon-checkmark {
   color: #f9c923;
